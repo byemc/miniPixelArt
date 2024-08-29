@@ -179,9 +179,7 @@ pixelsString.addEventListener('input', _=> {
         });
 
     for (let i = 0; i < tempPixels.length; i += parseInt(s.value)) {
-        console.log(i);
         const chunk = tempPixels.slice(i, i + parseInt(s.value));
-        console.log(chunk);
         pixels.push(chunk)
     }
 
